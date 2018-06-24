@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FragStack</string>
+    <string name="push">Push</string>
+    <string name="pop">Pop</string>
+    <string name="shared_element_transition">Shared Element Transition</string>
+</resources>

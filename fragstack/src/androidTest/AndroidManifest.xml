@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.tatarka.fragstack.test">
+
+    <application>
+        <activity android:name=".EmptyActivity" />
+    </application>
+</manifest>
