@@ -44,3 +44,10 @@ backStack.pop().push(fragmentD)
 
 Get an instance of the backstack with `FragmentBackstack.of(activity.getSupportFragmentManager())` or
 `FragmentBackstack.of(fragment.getChildFragmentManager())`.
+
+## Differences with Fragment Transitions
+
+Unfortunatly the fragment transitions api is tied deeply with the built-in back-stack. It will see a pop from
+this lib the same way as a push. This means pop animations will run in the new fragment instead of the old one.
+Methods like `setSharedElementReturnTransition()`, `setReenterTransition()` and `setReturnTransition()` will 
+be ignored.
